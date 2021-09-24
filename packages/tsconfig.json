@@ -1,0 +1,16 @@
+
+{
+    "extends": "../tsconfig.json",
+    "compilerOptions": {
+      "baseUrl": ".",
+      "rootDir": ".",
+      "paths": {
+        "lp/*": ["./*"]
+      },
+      "alwaysStrict": true,
+      "strictFunctionTypes": true
+    },
+    "include": [
+      "./**/*.ts"
+    ]
+  }
